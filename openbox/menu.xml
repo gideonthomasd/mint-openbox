@@ -15,7 +15,7 @@
         <separator />
         <item label="Terminal">
             <action name="Execute">
-                <execute>xfce4-terminal</execute>
+                <execute>alacritty</execute>
             </action>
         </item>
         <item label="Brave browser">
@@ -36,6 +36,11 @@
         <item label="Tint2 Config">
             <action name="Execute">
                 <execute>tint2conf</execute>
+            </action>
+        </item>
+        <item label="My Programs">
+            <action name="Execute">
+                <execute>~/mymenu.sh</execute>
             </action>
         </item>
         

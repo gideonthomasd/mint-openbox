@@ -16,4 +16,5 @@ killall evolution-calendar-factory
 killall evolution-addressbook-factory
 killall evolution-source-registry
 killall flatpak-update-worker
+killall nm-applet
 
