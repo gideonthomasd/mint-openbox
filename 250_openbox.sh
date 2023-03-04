@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt install openbox obconf tint2 openbox-menu feh jgmenu lxappearance lxtask lxsession pcmanfm xfce4-terminal conky rofi geany picom neofetch yt-dlp parcellite audacious
-sudo apt install yaru-theme-gtk yaru-theme-icon
+sudo apt install yaru-theme-gtk yaru-theme-icon i3lock-fancy scid stockfish lxpolkit lxterminal htop
 
 #Install brave
 sudo apt install curl
@@ -43,6 +43,7 @@ mkdir -p ~/.config/jgmenu
 cp jgmenurc ~/.config/jgmenu
 
 cp log.sh ~/log.sh
+cp mymenu.sh ~/mymenu.sh
 cp bashrc ~/.bashrc
 
 mkdir -p ~/.themes
