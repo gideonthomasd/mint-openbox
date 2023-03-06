@@ -28,3 +28,5 @@ mkdir -p ~/.config/sxhkd
 cd sxhkd
 cp * -r ~/.config/sxhkd
 cd ..
+
+sudo mv /etc/xdg/autostart /etc/xdg/autostart1
