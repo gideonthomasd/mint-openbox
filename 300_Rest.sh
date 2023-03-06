@@ -35,5 +35,5 @@ pacstall -I pycharm-community-bin
 pacstall -I nerd-fonts-jetbrains-mono
 pacstall -I alacritty
 #pacstall -I zoom-deb
-sudo apt install python3-tk python3-pil python3-pil.imagetk sqlitebrowser
+sudo apt install python3-tk python3-pil python3-pil.imagetk sqlitebrowser python3-pip
 ~/.config/zentile_linux_amd64 &
