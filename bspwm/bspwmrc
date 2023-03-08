@@ -2,17 +2,20 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III IV V VI
 
 xrandr -s 1920x1080
 audacious &
 sxhkd &
 parcellite &
 #################################################
-~/.config/polybar-bspwm/launch.sh &
+#~/.config/polybar-bspwm/launch.sh &
+#~/.config/polybar/panel.sh &
+tint2 -c ~/.config/tint2/dracula.tint2rc &
+conky -c ~/.config/conky/sysinfo_mbcolor.conkyrc &
+#picom &
 #################################################
 
-picom &
 #feh --bg-fill ~/Pictures/wallpapers/xfce-leaves.svg &
 lxappearance &
 
