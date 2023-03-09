@@ -5,6 +5,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 bspc monitor -d I II III IV V VI
 
 xrandr -s 1920x1080
+lxpolkit &
 audacious &
 sxhkd &
 parcellite &
