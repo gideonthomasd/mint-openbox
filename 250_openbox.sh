@@ -41,6 +41,8 @@ cd ..
 
 mkdir -p ~/.config/jgmenu
 cp jgmenurc ~/.config/jgmenu
+cp prepend.csv ~/.config/jgmenu
+cp append.csv ~/.config/jgmenu
 
 cp log.sh ~/log.sh
 cp mymenu.sh ~/mymenu.sh
